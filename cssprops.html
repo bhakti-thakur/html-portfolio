@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssprops</title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        .clippath{
+            clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+        }
+
+        @media screen and (max-width: 600px) and (orientation: landscape) {
+            p{
+                color: red;
+            }
+        }
+        @media screen and (max-width:600px),
+        screen and (orientation: landscape) {
+            .div1{
+                color: aquamarine;
+            }
+        }
+
+        @media not all and (orientation:landscape) {
+            .div2{
+                color: blueviolet;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--<img class="clippath" src="img_assets/Cake.jpeg" alt="cake">-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsam nemo, ut corporis, rerum deleniti repudiandae quod accusamus dolore excepturi dignissimos blanditiis exercitationem nesciunt est porro dolorum commodi magnam laboriosam eum fugit minus quo. Illo libero assumenda dolorem, esse cum aspernatur nulla aperiam. Nam libero atque quae iure obcaecati assumenda quo tempora. Odio animi cum non ad nam quia? Quas facere repudiandae repellendus vero corporis fugit animi, quibusdam veritatis neque nam nisi harum fugiat amet, aliquam aspernatur dicta eaque iste blanditiis tenetur nemo exercitationem recusandae? Et, quaerat omnis magnam nulla dolore doloribus, unde id, nemo natus error veritatis molestiae expedita!</p>
+    <div class="div1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde obcaecati corrupti iste ipsa reiciendis delectus quae qui. Magni saepe ipsum eos reprehenderit numquam necessitatibus fuga eius nihil! Expedita molestiae dolores consectetur recusandae commodi quas iusto eum reiciendis nesciunt eaque vero, fugiat aut fuga. Porro, expedita. Libero error tenetur dolore repudiandae quibusdam repellat quaerat ipsa, rem necessitatibus voluptatem quos dolorem iste explicabo ut quod harum, hic aliquid, voluptas velit neque suscipit quo. Perspiciatis et libero impedit reiciendis veniam odio assumenda pariatur earum voluptatem quibusdam qui nesciunt est voluptate ex, cupiditate laudantium tempore? 
+    </div>
+    <div class="div2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolorem, quae, facilis reprehenderit soluta esse facere labore impedit alias molestiae ratione aut aliquid quaerat dolor aspernatur vero! Adipisci ipsa repellendus, earum vero illum recusandae ullam rem est veniam ab quidem laborum doloremque delectus commodi at, modi, consequatur quos incidunt optio corporis explicabo accusantium similique! Saepe, libero recusandae provident molestiae fuga maiores. Consequuntur architecto beatae distinctio? Consequatur voluptatum aspernatur eius vel mollitia earum doloribus eaque molestiae quaerat. Quibusdam praesentium delectus animi, explicabo ex iste voluptate id, eum odio voluptas maxime provident reprehenderit quisquam ratione alias, numquam eius incidunt error vero asperiores.</div>
+</body>
+</html>

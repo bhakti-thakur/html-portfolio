@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact information form</title>
+    <!--<link rel="stylesheet" href="contactstyle.css">-->
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-weight: 400;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .wrapper{
+            background-color: rgb(194, 191, 191);
+            border: 1px solid white;
+            border-radius: 12px;
+        }
+        .top{
+            background-color: rgb(96, 146, 82);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            padding: 15px;
+        }
+        .heading{
+            font-size: 36px;
+        }
+        input[type="text"], textarea{
+            padding: 10px 20px 10px 20px;
+            margin: 12px 12px ;
+            border: 1px solid rgb(194, 191, 191);
+            width: 98%;
+            border-radius: 4px;
+        }
+        .form{
+            padding: 12px;
+        }
+        input[type="submit"]{
+            padding: 10px 20px 10px 20px;
+            margin: 12px 12px ;
+            background-color: rgb(64, 101, 64);
+            width: 98%;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <div class="heading">Contact Form</div><br>
+            Please fill all the texts in form.
+        </div>
+        <form class="form">
+            <p>Your Name: <br> <input type="text" name="name" id="name" placeholder="Your name"></p>
+            <p>Your email: <br> <input type="text" name="mail" id="mail" placeholder="Valid email id"></p>
+            <p>Message: <br> <textarea name="message" id="message" rows="8" cols="20" placeholder="Your message to us"></textarea></p>
+            <p>Subject: <br> <input type="text" name="subject" id="subject" placeholder="Job Enquiry"></p>
+            <input type="submit" value="Send" name="Send" id="Send">
+        </form>
+    </div>
+</body>
+</html>

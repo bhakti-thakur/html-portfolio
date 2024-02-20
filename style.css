@@ -1,0 +1,74 @@
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+header{
+    text-align: center;
+    color: brown;
+    font-size: 175%;
+}
+.strip{
+    background-color: burlywood;
+    text-align: center;
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 135%;
+}
+
+nav a{
+    padding: 40px;
+}
+
+.strip marquee{
+    background-color: burlywood;
+    color: chocolate;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+
+h2{
+    color: brown;
+    font-size: 225%;
+}
+h3{
+    color: brown;
+    font-style: italic;
+    font-size: 35px;
+}
+.sec{
+    color: brown;
+}
+
+video{
+    padding: 50px;
+}
+
+iframe{
+    padding: 60px;
+}
+
+.founder{
+    color: brown;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+.founder a{
+    font-size: 18px;
+    padding: 60px;
+}
+p::first-line{
+    color: black;
+}
+
+a:hover{
+    color: purple;
+    text-decoration: wavy;
+}
+
+section a{
+    padding: 60px;
+}
